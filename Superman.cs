@@ -10,7 +10,6 @@ public class Superman : MonoBehaviour
 
     private Rigidbody _rigidBody;
 
-    private float _distance;
 
     private void Start()
     {
@@ -19,32 +18,20 @@ public class Superman : MonoBehaviour
 
     private void FixedUpdate()
     {
-        _rigidBody.velocity = Vector3.right * _speed;
+        _rigidBody.velocity = Vector3.forward * _speed;
     }
 
-    private void OnCollisionEnter(Collision collision)
-    {
-        if (collision.rigidbody)
-        {
-            UseForce();
-        }
-    }
-
-
-    private void UseForce()
+    private void OnCollisionStay(Collision collision)
     {
         Rigidbody[] rigidbodies = FindObjectsOfType<Rigidbody>();
 
-        _distance = Vector3.Distance(transform.position, _rigidBody.transform.position);
-
-        foreach (Rigidbody _findRigidBody in rigidbodies)
-        {  
-            if(_distance<_radius)
+        foreach (Rigidbody findRigidbody in rigidbodies)
+        {
+            if (collision.rigidbody == findRigidbody)
             {
-                Vector3 direction = _findRigidBody.transform.position - transform.position;
-                _findRigidBody.AddForce(direction.normalized * _power * (_radius - _distance), ForceMode.Impulse);
+                findRigidbody.AddForce(Vector3.forward*_power, ForceMode.Impulse);
             }
+           
         }
-
     }
 }
