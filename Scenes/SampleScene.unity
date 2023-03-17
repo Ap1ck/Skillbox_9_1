@@ -135,6 +135,7 @@ GameObject:
   - component: {fileID: 8134292}
   - component: {fileID: 8134291}
   - component: {fileID: 8134290}
+  - component: {fileID: 8134293}
   m_Layer: 7
   m_Name: GoodBoy4
   m_TagString: Untagged
@@ -218,6 +219,22 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8134288}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!54 &8134293
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8134288}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &324542204
 GameObject:
   m_ObjectHideFlags: 0
@@ -230,6 +247,7 @@ GameObject:
   - component: {fileID: 324542208}
   - component: {fileID: 324542207}
   - component: {fileID: 324542206}
+  - component: {fileID: 324542209}
   m_Layer: 7
   m_Name: GoodBoy2
   m_TagString: Untagged
@@ -313,6 +331,22 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 324542204}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!54 &324542209
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 324542204}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &335710426
 GameObject:
   m_ObjectHideFlags: 0
@@ -325,6 +359,7 @@ GameObject:
   - component: {fileID: 335710431}
   - component: {fileID: 335710430}
   - component: {fileID: 335710429}
+  - component: {fileID: 335710428}
   m_Layer: 7
   m_Name: GoodBoy2 (3)
   m_TagString: Untagged
@@ -346,6 +381,22 @@ Transform:
   m_Father: {fileID: 1301107365}
   m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!54 &335710428
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 335710426}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!65 &335710429
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -420,6 +471,7 @@ GameObject:
   - component: {fileID: 517723580}
   - component: {fileID: 517723579}
   - component: {fileID: 517723578}
+  - component: {fileID: 517723581}
   m_Layer: 7
   m_Name: GoodBoy1
   m_TagString: Untagged
@@ -503,6 +555,22 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 517723576}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!54 &517723581
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 517723576}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &574109132
 GameObject:
   m_ObjectHideFlags: 0
@@ -515,6 +583,7 @@ GameObject:
   - component: {fileID: 574109137}
   - component: {fileID: 574109136}
   - component: {fileID: 574109135}
+  - component: {fileID: 574109134}
   m_Layer: 7
   m_Name: GoodBoy2 (1)
   m_TagString: Untagged
@@ -536,6 +605,22 @@ Transform:
   m_Father: {fileID: 1301107365}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!54 &574109134
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 574109132}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!65 &574109135
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -946,6 +1031,7 @@ GameObject:
   - component: {fileID: 646602101}
   - component: {fileID: 646602100}
   - component: {fileID: 646602099}
+  - component: {fileID: 646602102}
   m_Layer: 7
   m_Name: GoodBoy3
   m_TagString: Untagged
@@ -1029,6 +1115,22 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 646602097}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!54 &646602102
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 646602097}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &699960302
 GameObject:
   m_ObjectHideFlags: 0
@@ -1358,6 +1460,7 @@ GameObject:
   - component: {fileID: 927038072}
   - component: {fileID: 927038071}
   - component: {fileID: 927038070}
+  - component: {fileID: 927038069}
   m_Layer: 7
   m_Name: GoodBoy1 (1)
   m_TagString: Untagged
@@ -1379,6 +1482,22 @@ Transform:
   m_Father: {fileID: 1301107365}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!54 &927038069
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 927038067}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!65 &927038070
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1536,6 +1655,7 @@ GameObject:
   - component: {fileID: 1016181385}
   - component: {fileID: 1016181384}
   - component: {fileID: 1016181383}
+  - component: {fileID: 1016181382}
   m_Layer: 7
   m_Name: GoodBoy3 (2)
   m_TagString: Untagged
@@ -1557,6 +1677,22 @@ Transform:
   m_Father: {fileID: 1301107365}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!54 &1016181382
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1016181380}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!65 &1016181383
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2079,6 +2215,7 @@ GameObject:
   - component: {fileID: 1220652640}
   - component: {fileID: 1220652639}
   - component: {fileID: 1220652638}
+  - component: {fileID: 1220652637}
   m_Layer: 7
   m_Name: GoodBoy4 (1)
   m_TagString: Untagged
@@ -2100,6 +2237,22 @@ Transform:
   m_Father: {fileID: 1301107365}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!54 &1220652637
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1220652635}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!65 &1220652638
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2262,6 +2415,7 @@ GameObject:
   - component: {fileID: 1369444670}
   - component: {fileID: 1369444669}
   - component: {fileID: 1369444668}
+  - component: {fileID: 1369444667}
   m_Layer: 7
   m_Name: GoodBoy3 (1)
   m_TagString: Untagged
@@ -2283,6 +2437,22 @@ Transform:
   m_Father: {fileID: 1301107365}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!54 &1369444667
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1369444665}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!65 &1369444668
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2357,6 +2527,7 @@ GameObject:
   - component: {fileID: 1373407943}
   - component: {fileID: 1373407942}
   - component: {fileID: 1373407941}
+  - component: {fileID: 1373407940}
   m_Layer: 7
   m_Name: GoodBoy3 (3)
   m_TagString: Untagged
@@ -2378,6 +2549,22 @@ Transform:
   m_Father: {fileID: 1301107365}
   m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!54 &1373407940
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1373407938}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!65 &1373407941
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2564,6 +2751,7 @@ GameObject:
   - component: {fileID: 1452595053}
   - component: {fileID: 1452595052}
   - component: {fileID: 1452595051}
+  - component: {fileID: 1452595054}
   m_Layer: 7
   m_Name: GoodBoy5
   m_TagString: Untagged
@@ -2647,6 +2835,22 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1452595049}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!54 &1452595054
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1452595049}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &1480980144
 GameObject:
   m_ObjectHideFlags: 0
@@ -2995,6 +3199,7 @@ GameObject:
   - component: {fileID: 1897678048}
   - component: {fileID: 1897678047}
   - component: {fileID: 1897678046}
+  - component: {fileID: 1897678045}
   m_Layer: 7
   m_Name: GoodBoy2 (2)
   m_TagString: Untagged
@@ -3016,6 +3221,22 @@ Transform:
   m_Father: {fileID: 1301107365}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!54 &1897678045
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1897678043}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!65 &1897678046
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3090,6 +3311,7 @@ GameObject:
   - component: {fileID: 1945603569}
   - component: {fileID: 1945603568}
   - component: {fileID: 1945603567}
+  - component: {fileID: 1945603566}
   m_Layer: 7
   m_Name: GoodBoy4 (2)
   m_TagString: Untagged
@@ -3111,6 +3333,22 @@ Transform:
   m_Father: {fileID: 1301107365}
   m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!54 &1945603566
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1945603564}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!65 &1945603567
 BoxCollider:
   m_ObjectHideFlags: 0
