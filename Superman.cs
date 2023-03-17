@@ -6,7 +6,6 @@ public class Superman : MonoBehaviour
 {
     [SerializeField] private float _speed;
     [SerializeField] private float _power;
-    [SerializeField] private float _radius;
 
     private Rigidbody _rigidBody;
 
@@ -30,8 +29,7 @@ public class Superman : MonoBehaviour
             if (collision.rigidbody == findRigidbody)
             {
                 findRigidbody.AddForce(Vector3.forward*_power, ForceMode.Impulse);
-            }
-           
+            }   
         }
     }
 }
